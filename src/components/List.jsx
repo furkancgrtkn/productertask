@@ -26,6 +26,6 @@ export default function List({ todos, setTodos }) {
       ))}
     </ul>
   ) : (
-    <div className="text-sm">No Todos</div>
+    <div className="text-sm">All Todos Completed</div>
   );
 }
